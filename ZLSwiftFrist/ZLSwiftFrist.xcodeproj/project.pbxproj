@@ -14,6 +14,8 @@
 		0CEDF9641CDB1713000C808E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEDF9621CDB1713000C808E /* LaunchScreen.storyboard */; };
 		0CEDF96F1CDB1713000C808E /* ZLSwiftFristTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEDF96E1CDB1713000C808E /* ZLSwiftFristTests.swift */; };
 		0CEDF97A1CDB1713000C808E /* ZLSwiftFristUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEDF9791CDB1713000C808E /* ZLSwiftFristUITests.swift */; };
+		0CEDF98A1CDB23F6000C808E /* ZLFaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEDF9891CDB23F6000C808E /* ZLFaceView.swift */; };
+		0CEDF98C1CDB29BE000C808E /* ZLFaceDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEDF98B1CDB29BE000C808E /* ZLFaceDataBase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0CEDF9751CDB1713000C808E /* ZLSwiftFristUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLSwiftFristUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CEDF9791CDB1713000C808E /* ZLSwiftFristUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLSwiftFristUITests.swift; sourceTree = "<group>"; };
 		0CEDF97B1CDB1713000C808E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CEDF9891CDB23F6000C808E /* ZLFaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFaceView.swift; sourceTree = "<group>"; };
+		0CEDF98B1CDB29BE000C808E /* ZLFaceDataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLFaceDataBase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				0CEDF9601CDB1713000C808E /* Assets.xcassets */,
 				0CEDF9621CDB1713000C808E /* LaunchScreen.storyboard */,
 				0CEDF9651CDB1713000C808E /* Info.plist */,
+				0CEDF9891CDB23F6000C808E /* ZLFaceView.swift */,
+				0CEDF98B1CDB29BE000C808E /* ZLFaceDataBase.swift */,
 			);
 			path = ZLSwiftFrist;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CEDF95C1CDB1713000C808E /* ViewController.swift in Sources */,
+				0CEDF98C1CDB29BE000C808E /* ZLFaceDataBase.swift in Sources */,
 				0CEDF95A1CDB1713000C808E /* AppDelegate.swift in Sources */,
+				0CEDF98A1CDB23F6000C808E /* ZLFaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
