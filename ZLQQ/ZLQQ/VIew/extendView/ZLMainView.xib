@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="3r1-9k-0KK" customClass="ZLLoginTextField">
+            <rect key="frame" x="0.0" y="0.0" width="349" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Checkmark.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Vh-9r-VYM">
+                    <rect key="frame" x="4" y="10" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="H1L-n7-Ynz"/>
+                        <constraint firstAttribute="height" constant="40" id="fQf-Hg-KeR"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5m7-pG-oOK">
+                    <rect key="frame" x="0.0" y="60" width="349" height="0.0"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="pGY-Cj-LCf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vxU-ie-u8m">
+                    <rect key="frame" x="52" y="10" width="297" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="vxU-ie-u8m" firstAttribute="leading" secondItem="5Vh-9r-VYM" secondAttribute="trailing" constant="8" id="FV6-ht-f1a"/>
+                <constraint firstAttribute="trailing" secondItem="5m7-pG-oOK" secondAttribute="trailing" id="HV2-QU-aKu"/>
+                <constraint firstItem="5m7-pG-oOK" firstAttribute="leading" secondItem="3r1-9k-0KK" secondAttribute="leading" id="K3i-Ha-bzJ"/>
+                <constraint firstAttribute="bottom" secondItem="5m7-pG-oOK" secondAttribute="bottom" id="Rzi-pk-LC5"/>
+                <constraint firstAttribute="trailing" secondItem="vxU-ie-u8m" secondAttribute="trailing" id="VAO-iT-bHf"/>
+                <constraint firstItem="vxU-ie-u8m" firstAttribute="height" secondItem="5Vh-9r-VYM" secondAttribute="height" id="Vro-KD-vJz"/>
+                <constraint firstItem="5Vh-9r-VYM" firstAttribute="leading" secondItem="3r1-9k-0KK" secondAttribute="leading" constant="4" id="hYD-t0-lhW"/>
+                <constraint firstItem="5Vh-9r-VYM" firstAttribute="centerY" secondItem="3r1-9k-0KK" secondAttribute="centerY" id="oKL-3q-bYW"/>
+                <constraint firstItem="vxU-ie-u8m" firstAttribute="centerY" secondItem="3r1-9k-0KK" secondAttribute="centerY" id="v9b-x4-5Nn"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="buttomLineL" destination="5m7-pG-oOK" id="hIk-yy-vd1"/>
+                <outlet property="leftImgV" destination="5Vh-9r-VYM" id="66b-Df-weS"/>
+                <outlet property="textField" destination="vxU-ie-u8m" id="o9l-Yy-UJl"/>
+            </connections>
+            <point key="canvasLocation" x="261.5" y="434"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Checkmark.png" width="37" height="37"/>
+    </resources>
+</document>
