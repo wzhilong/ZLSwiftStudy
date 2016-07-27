@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C5CACC91D4862E700D64477 /* ZLLanYaManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5CACC81D4862E700D64477 /* ZLLanYaManage.m */; };
+		0C5CACCC1D486E6500D64477 /* ZLPeripheralDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5CACCB1D486E6500D64477 /* ZLPeripheralDelegate.m */; };
+		0C5CACCF1D487F3A00D64477 /* ZLJianWeiTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5CACCE1D487F3A00D64477 /* ZLJianWeiTool.m */; };
+		0C82FC9A1D42097600B2A61B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C82FC991D42097600B2A61B /* main.m */; };
+		0C82FC9D1D42097600B2A61B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C82FC9C1D42097600B2A61B /* AppDelegate.m */; };
+		0C82FCA01D42097600B2A61B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C82FC9F1D42097600B2A61B /* ViewController.m */; };
+		0C82FCA31D42097600B2A61B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C82FCA11D42097600B2A61B /* Main.storyboard */; };
+		0C82FCA51D42097600B2A61B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C82FCA41D42097600B2A61B /* Assets.xcassets */; };
+		0C82FCA81D42097600B2A61B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C82FCA61D42097600B2A61B /* LaunchScreen.storyboard */; };
+		0C82FCB31D42097700B2A61B /* LanYaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C82FCB21D42097700B2A61B /* LanYaTests.m */; };
+		0C82FCBE1D42097700B2A61B /* LanYaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C82FCBD1D42097700B2A61B /* LanYaUITests.m */; };
+		0C82FCCC1D42099200B2A61B /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C82FCCB1D42099200B2A61B /* CoreBluetooth.framework */; };
+		0C82FCD01D42137700B2A61B /* ZLCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C82FCCE1D42137700B2A61B /* ZLCell.m */; };
+		0C82FCD11D42137700B2A61B /* ZLCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C82FCCF1D42137700B2A61B /* ZLCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C82FCAF1D42097700B2A61B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C82FC8D1D42097600B2A61B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C82FC941D42097600B2A61B;
+			remoteInfo = LanYa;
+		};
+		0C82FCBA1D42097700B2A61B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C82FC8D1D42097600B2A61B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C82FC941D42097600B2A61B;
+			remoteInfo = LanYa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C5CACC71D4862E700D64477 /* ZLLanYaManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLLanYaManage.h; sourceTree = "<group>"; };
+		0C5CACC81D4862E700D64477 /* ZLLanYaManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLLanYaManage.m; sourceTree = "<group>"; };
+		0C5CACCA1D486E6500D64477 /* ZLPeripheralDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPeripheralDelegate.h; sourceTree = "<group>"; };
+		0C5CACCB1D486E6500D64477 /* ZLPeripheralDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPeripheralDelegate.m; sourceTree = "<group>"; };
+		0C5CACCD1D487F3A00D64477 /* ZLJianWeiTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLJianWeiTool.h; sourceTree = "<group>"; };
+		0C5CACCE1D487F3A00D64477 /* ZLJianWeiTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLJianWeiTool.m; sourceTree = "<group>"; };
+		0C5CACD01D488C7E00D64477 /* ZLJianWeiConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLJianWeiConfig.h; sourceTree = "<group>"; };
+		0C82FC951D42097600B2A61B /* LanYa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanYa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C82FC991D42097600B2A61B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C82FC9B1D42097600B2A61B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C82FC9C1D42097600B2A61B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C82FC9E1D42097600B2A61B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C82FC9F1D42097600B2A61B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C82FCA21D42097600B2A61B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C82FCA41D42097600B2A61B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C82FCA71D42097600B2A61B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C82FCA91D42097600B2A61B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C82FCAE1D42097700B2A61B /* LanYaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanYaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C82FCB21D42097700B2A61B /* LanYaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanYaTests.m; sourceTree = "<group>"; };
+		0C82FCB41D42097700B2A61B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C82FCB91D42097700B2A61B /* LanYaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanYaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C82FCBD1D42097700B2A61B /* LanYaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanYaUITests.m; sourceTree = "<group>"; };
+		0C82FCBF1D42097700B2A61B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C82FCCB1D42099200B2A61B /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		0C82FCCD1D42137700B2A61B /* ZLCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCell.h; sourceTree = "<group>"; };
+		0C82FCCE1D42137700B2A61B /* ZLCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCell.m; sourceTree = "<group>"; };
+		0C82FCCF1D42137700B2A61B /* ZLCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C82FC921D42097600B2A61B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C82FCCC1D42099200B2A61B /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C82FCAB1D42097700B2A61B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C82FCB61D42097700B2A61B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C5CACC61D4862C100D64477 /* LanYaShanKong */ = {
+			isa = PBXGroup;
+			children = (
+				0C5CACC71D4862E700D64477 /* ZLLanYaManage.h */,
+				0C5CACC81D4862E700D64477 /* ZLLanYaManage.m */,
+				0C5CACCA1D486E6500D64477 /* ZLPeripheralDelegate.h */,
+				0C5CACCB1D486E6500D64477 /* ZLPeripheralDelegate.m */,
+				0C5CACCD1D487F3A00D64477 /* ZLJianWeiTool.h */,
+				0C5CACCE1D487F3A00D64477 /* ZLJianWeiTool.m */,
+				0C5CACD01D488C7E00D64477 /* ZLJianWeiConfig.h */,
+			);
+			path = LanYaShanKong;
+			sourceTree = "<group>";
+		};
+		0C82FC8C1D42097600B2A61B = {
+			isa = PBXGroup;
+			children = (
+				0C82FCCB1D42099200B2A61B /* CoreBluetooth.framework */,
+				0C82FC971D42097600B2A61B /* LanYa */,
+				0C82FCB11D42097700B2A61B /* LanYaTests */,
+				0C82FCBC1D42097700B2A61B /* LanYaUITests */,
+				0C82FC961D42097600B2A61B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C82FC961D42097600B2A61B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C82FC951D42097600B2A61B /* LanYa.app */,
+				0C82FCAE1D42097700B2A61B /* LanYaTests.xctest */,
+				0C82FCB91D42097700B2A61B /* LanYaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C82FC971D42097600B2A61B /* LanYa */ = {
+			isa = PBXGroup;
+			children = (
+				0C5CACC61D4862C100D64477 /* LanYaShanKong */,
+				0C82FC9B1D42097600B2A61B /* AppDelegate.h */,
+				0C82FC9C1D42097600B2A61B /* AppDelegate.m */,
+				0C82FC9E1D42097600B2A61B /* ViewController.h */,
+				0C82FC9F1D42097600B2A61B /* ViewController.m */,
+				0C82FCA11D42097600B2A61B /* Main.storyboard */,
+				0C82FCA41D42097600B2A61B /* Assets.xcassets */,
+				0C82FCA61D42097600B2A61B /* LaunchScreen.storyboard */,
+				0C82FCA91D42097600B2A61B /* Info.plist */,
+				0C82FC981D42097600B2A61B /* Supporting Files */,
+				0C82FCCD1D42137700B2A61B /* ZLCell.h */,
+				0C82FCCE1D42137700B2A61B /* ZLCell.m */,
+				0C82FCCF1D42137700B2A61B /* ZLCell.xib */,
+			);
+			path = LanYa;
+			sourceTree = "<group>";
+		};
+		0C82FC981D42097600B2A61B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C82FC991D42097600B2A61B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C82FCB11D42097700B2A61B /* LanYaTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C82FCB21D42097700B2A61B /* LanYaTests.m */,
+				0C82FCB41D42097700B2A61B /* Info.plist */,
+			);
+			path = LanYaTests;
+			sourceTree = "<group>";
+		};
+		0C82FCBC1D42097700B2A61B /* LanYaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C82FCBD1D42097700B2A61B /* LanYaUITests.m */,
+				0C82FCBF1D42097700B2A61B /* Info.plist */,
+			);
+			path = LanYaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C82FC941D42097600B2A61B /* LanYa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C82FCC21D42097700B2A61B /* Build configuration list for PBXNativeTarget "LanYa" */;
+			buildPhases = (
+				0C82FC911D42097600B2A61B /* Sources */,
+				0C82FC921D42097600B2A61B /* Frameworks */,
+				0C82FC931D42097600B2A61B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LanYa;
+			productName = LanYa;
+			productReference = 0C82FC951D42097600B2A61B /* LanYa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C82FCAD1D42097700B2A61B /* LanYaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C82FCC51D42097700B2A61B /* Build configuration list for PBXNativeTarget "LanYaTests" */;
+			buildPhases = (
+				0C82FCAA1D42097700B2A61B /* Sources */,
+				0C82FCAB1D42097700B2A61B /* Frameworks */,
+				0C82FCAC1D42097700B2A61B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C82FCB01D42097700B2A61B /* PBXTargetDependency */,
+			);
+			name = LanYaTests;
+			productName = LanYaTests;
+			productReference = 0C82FCAE1D42097700B2A61B /* LanYaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C82FCB81D42097700B2A61B /* LanYaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C82FCC81D42097700B2A61B /* Build configuration list for PBXNativeTarget "LanYaUITests" */;
+			buildPhases = (
+				0C82FCB51D42097700B2A61B /* Sources */,
+				0C82FCB61D42097700B2A61B /* Frameworks */,
+				0C82FCB71D42097700B2A61B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C82FCBB1D42097700B2A61B /* PBXTargetDependency */,
+			);
+			name = LanYaUITests;
+			productName = LanYaUITests;
+			productReference = 0C82FCB91D42097700B2A61B /* LanYaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C82FC8D1D42097600B2A61B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZhiLong;
+				TargetAttributes = {
+					0C82FC941D42097600B2A61B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					0C82FCAD1D42097700B2A61B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0C82FC941D42097600B2A61B;
+					};
+					0C82FCB81D42097700B2A61B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0C82FC941D42097600B2A61B;
+					};
+				};
+			};
+			buildConfigurationList = 0C82FC901D42097600B2A61B /* Build configuration list for PBXProject "LanYa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C82FC8C1D42097600B2A61B;
+			productRefGroup = 0C82FC961D42097600B2A61B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C82FC941D42097600B2A61B /* LanYa */,
+				0C82FCAD1D42097700B2A61B /* LanYaTests */,
+				0C82FCB81D42097700B2A61B /* LanYaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C82FC931D42097600B2A61B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C82FCA81D42097600B2A61B /* LaunchScreen.storyboard in Resources */,
+				0C82FCD11D42137700B2A61B /* ZLCell.xib in Resources */,
+				0C82FCA51D42097600B2A61B /* Assets.xcassets in Resources */,
+				0C82FCA31D42097600B2A61B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C82FCAC1D42097700B2A61B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C82FCB71D42097700B2A61B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C82FC911D42097600B2A61B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C5CACCC1D486E6500D64477 /* ZLPeripheralDelegate.m in Sources */,
+				0C82FCA01D42097600B2A61B /* ViewController.m in Sources */,
+				0C82FCD01D42137700B2A61B /* ZLCell.m in Sources */,
+				0C82FC9D1D42097600B2A61B /* AppDelegate.m in Sources */,
+				0C5CACC91D4862E700D64477 /* ZLLanYaManage.m in Sources */,
+				0C5CACCF1D487F3A00D64477 /* ZLJianWeiTool.m in Sources */,
+				0C82FC9A1D42097600B2A61B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C82FCAA1D42097700B2A61B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C82FCB31D42097700B2A61B /* LanYaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C82FCB51D42097700B2A61B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C82FCBE1D42097700B2A61B /* LanYaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C82FCB01D42097700B2A61B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C82FC941D42097600B2A61B /* LanYa */;
+			targetProxy = 0C82FCAF1D42097700B2A61B /* PBXContainerItemProxy */;
+		};
+		0C82FCBB1D42097700B2A61B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C82FC941D42097600B2A61B /* LanYa */;
+			targetProxy = 0C82FCBA1D42097700B2A61B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C82FCA11D42097600B2A61B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C82FCA21D42097600B2A61B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C82FCA61D42097600B2A61B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C82FCA71D42097600B2A61B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C82FCC01D42097700B2A61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C82FCC11D42097700B2A61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C82FCC31D42097700B2A61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LanYa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.10fenke.LanYa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C82FCC41D42097700B2A61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LanYa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.10fenke.LanYa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0C82FCC61D42097700B2A61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LanYaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.10fenke.LanYaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LanYa.app/LanYa";
+			};
+			name = Debug;
+		};
+		0C82FCC71D42097700B2A61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LanYaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.10fenke.LanYaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LanYa.app/LanYa";
+			};
+			name = Release;
+		};
+		0C82FCC91D42097700B2A61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LanYaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.10fenke.LanYaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LanYa;
+			};
+			name = Debug;
+		};
+		0C82FCCA1D42097700B2A61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LanYaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.10fenke.LanYaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LanYa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C82FC901D42097600B2A61B /* Build configuration list for PBXProject "LanYa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C82FCC01D42097700B2A61B /* Debug */,
+				0C82FCC11D42097700B2A61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C82FCC21D42097700B2A61B /* Build configuration list for PBXNativeTarget "LanYa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C82FCC31D42097700B2A61B /* Debug */,
+				0C82FCC41D42097700B2A61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C82FCC51D42097700B2A61B /* Build configuration list for PBXNativeTarget "LanYaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C82FCC61D42097700B2A61B /* Debug */,
+				0C82FCC71D42097700B2A61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C82FCC81D42097700B2A61B /* Build configuration list for PBXNativeTarget "LanYaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C82FCC91D42097700B2A61B /* Debug */,
+				0C82FCCA1D42097700B2A61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C82FC8D1D42097600B2A61B /* Project object */;
+}
